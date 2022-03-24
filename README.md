@@ -12,7 +12,7 @@ But not:
 And this for blinking:
      PORTD |= (1 << PB5);    
      _delay_ms(500);     
-     PORTD &= ~(1 << PB5); 
-      _delay_ms(500);   
+     PORTD &= ~(1 << PB5);
+     _delay_ms(500);   
    
  Advice - learn how to operate correct, incorrect can be without you)))
